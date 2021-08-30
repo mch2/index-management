@@ -39,6 +39,7 @@ buildscript {
         mavenLocal()
         mavenCentral()
         maven { url "https://plugins.gradle.org/m2/" }
+        maven { url "https://aws.oss.sonatype.org/content/repositories/orgopensearch-1005/" }
     }
 
     dependencies {
@@ -173,6 +174,7 @@ dependencies {
 
 repositories {
     mavenLocal()
+    maven { url "https://aws.oss.sonatype.org/content/repositories/orgopensearch-1005/" }
 }
 
 if (isSnapshot) {
